@@ -23,8 +23,8 @@ header {
     #max-width: 400px;
     display: block; /* Make the image a block-level element for center alignment */
     margin: 0 auto; /* Center the image horizontally */
-    #width: 100%;
-    #height: auto;
+    width: 160%;
+    height: auto;
 }
 
 .email {
