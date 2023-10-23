@@ -21,7 +21,8 @@ header {
 
 .logo img {
     max-width: 100px;
-    text-align: center;
+    display: block; /* Make the image a block-level element for center alignment */
+    margin: 0 auto; /* Center the image horizontally */
 }
 
 .email {
