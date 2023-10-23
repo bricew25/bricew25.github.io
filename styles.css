@@ -21,6 +21,7 @@ header {
 
 .logo img {
     max-width: 100px;
+    text-align: center;
 }
 
 .email {
