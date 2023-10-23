@@ -1,0 +1,49 @@
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: white;
+    border-bottom: 2px solid #000; /* Add a thicker black border to the header */
+    color: black; /* Change text color to black */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+.email {
+    text-align: right;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.box {
+    border: 8px solid #000; /* Add a thicker black border around each box */
+    background-color: white; /* Set the background of the box to white */
+    padding: 20px;
+    text-align: center; /* Center the text inside the boxes */
+}
+
+img {
+    max-width: 100%;
+}
+
